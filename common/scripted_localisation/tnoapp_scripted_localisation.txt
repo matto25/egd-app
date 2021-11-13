@@ -1,0 +1,23 @@
+defined_text = {
+	name = GetBananas
+	text = {
+		trigger = {
+			check_variable = {
+				var = Bananas
+				value = 30
+				compare = less_than
+			}
+		}
+		localization_key = banana.low
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = Bananas
+				value = 30
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = banana.high
+	}
+}

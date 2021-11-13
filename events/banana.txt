@@ -1,0 +1,90 @@
+add_namespace = banana
+
+country_event = {
+	id = banana.1
+	title = banana.1.t
+	desc = banana.1.d
+	picture = GFX_big_banana
+
+	is_triggered_only = yes
+	
+	option = {
+		name = banana.1.a
+		country_event = {
+			id = banana.2
+		}
+	}
+	option = {
+		name = banana.1.b
+		country_event = {
+			id = banana.3
+		}
+	}
+}
+
+country_event = {
+	id = banana.2
+	title = banana.2.t
+	desc = banana.2.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = banana.2.a
+		add_political_power = -150
+		add_stability = -0.50
+	}
+}
+
+country_event = {
+	id = banana.3
+	title = banana.3.t
+	desc = banana.3.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = banana.3.a
+	}
+}
+
+country_event = {
+	id = banana.4
+	title = banana.4.t
+	desc = banana.4.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = banana.4.a
+	}
+}	
+	
+country_event = {
+	id = banana.5
+	title = banana.5.t
+	desc = banana.5.d
+	picture = GFX_harvest
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = banana.5.a
+	}
+}
+	
+country_event = {
+	id = banana.6
+	title = banana.6.t
+	desc = banana.6.d
+	picture = GFX_troll
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = banana.6.a
+		add_political_power = -300
+		add_stability = 0.01
+		add_stability = -0.01
+	}
+}

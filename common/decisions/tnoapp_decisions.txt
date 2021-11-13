@@ -1,0 +1,54 @@
+banana = {
+	add_to_variable_decision = {
+		complete_effect = {
+			add_to_variable = {
+				var = Bananas
+				value = 5
+			}
+			country_event = {
+				id = banana.5
+			}
+		}
+	}
+	eat_banana = {
+		complete_effect = {
+			subtract_from_variable = {
+				var = Bananas
+				value = 1
+			}
+		}
+	}
+	banana_event = {
+		complete_effect = {
+			country_event = {
+				id = banana.1
+			}
+		}
+	}
+	eat_all_banana = {
+		complete_effect = {
+			set_variable = {
+				var= Bananas
+				value = 0
+			}
+			country_event = {
+				id = banana.4
+			}
+		}
+	}
+	eat_bananas = {
+		complete_effect = {
+			subtract_from_variable = {
+				var = Bananas
+				value = 10
+			}
+		}
+	}
+	secret = {
+		complete_effect = {
+			country_event = {
+				id = banana.6
+			}
+		}
+	}
+}
